@@ -1,4 +1,10 @@
-.dynamic-txts {
-    font-size: xx-large;
+body {
+    background-color:rgb(250, 250, 250);
+}
 
+video {
+    position: absolute;
+    margin: 0 auto;
+    margin-left: -210px;
+    width: 200%;
 }
