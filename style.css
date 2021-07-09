@@ -8,3 +8,48 @@ video {
     margin-left: -210px;
     width: 200%;
 }
+
+.nav-item {
+    padding: 10px 25px;
+    font-size: large;
+}
+
+.resume {
+    background-color: white; 
+  color: black; 
+  border: 2px solid #D4A59A;
+  margin-left: 10px;
+  padding: 10px 25px;
+  font-size: large;
+}
+
+.resume:hover {
+    background-color: #fa8231;
+  color: white;
+}
+
+.nav {
+    margin-right: 40px;
+    margin-top: 40px;
+}
+
+#myBtn {
+    background-color: #D4a59a;
+}
+
+#myBtn:hover{
+    background-color: white;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.social-icons a {
+    position: relative;
+    padding-top: 100px;
+    font-size: 20px;
+    color: #fff;
+    margin: 20px;
+}

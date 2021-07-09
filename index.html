@@ -5,6 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
     <link rel="stylesheet" href="./style.css">
     <title>Riya Verma</title>
 </head>
@@ -14,9 +17,16 @@
     <!-- FRONT PAGE -->
 
     <header id="front">
+        <div class="nav" style="justify-content: flex-end;">
+                <li class="nav-item justify-content-end">
+                  <a class="nav-link active" aria-current="page" href="#" style="color: black;">About</a>
+                </li>
+                <button class="resume">Resume</button>
+                
+        </div>
     <div class="container" style=" margin: 0 auto;">
     <div class="container-bg"  style="border:2px solid #000; margin: 0 auto; margin-top: 200px; position: relative;
-     width: 40%; height: 600px;">
+     width: 40%; height: 700px; padding-top: 50px;">
      <div class="name">
         <video autoplay loop width="150%">
             <source src="./Name_2.mp4" type="video/mp4">
@@ -47,9 +57,25 @@
 
     <!-- FOOTER -->
 
-    <section id="footer"></section>
+    <footer id="footer" style="background-color:#D4a59a; padding-top: 50px;" >
+        <div class="wave" style="background-color:#907163; border-radius: 50% 50% 50% 50% / 100% 100% 0% 0% ; height: 600px;">
+            <button id="myBtn" onclick="scrollFunction()" style="border-radius: 50% ; padding: 15px; margin: auto; border: none;
+            display: flex; justify-content: center; align-items: center; top: 500px; position: relative;" >
+                <span class="material-icons">
+                    arrow_upward
+                    </span>  
+                    </button>
+                    <p style="font-family: 'Poppins', sans-serif; text-align: center; font-size:35px; font-weight: bold; position: relative; top: 90px;">This doesn't have to end yet, <br> Let's Connect!</p>
+                    <div class="social-icons">
+              <a href="https://www.linkedin.com/in/riya-verma-7495a91aa/" class="linkedin"><i class="bi bi-linkedin"></i></a>
+              <a href="https://github.com/riyaverma338"><i class="bi bi-github"></i></a>
+              <a href="https://twitter.com/vermariya12" class="twitter"><i class="bi bi-twitter"></i></a>
+                    </div>
+                    <p style="text-align: center; position: relative; top: 230px;">Crafted with much delight!</p>     
+                </div>
+            </footer>
+    
 </div>
-
     <script src="./script.js"></script>
 </body>
 </html>
