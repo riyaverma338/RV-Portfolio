@@ -1,44 +1,78 @@
-body {
+/* body {
     background-color:rgb(250, 250, 250);
+} */
+
+body {
+    background-image: linear-gradient(45deg,#f1effd,#ffeaef);
 }
 
+
 video {
-    position: absolute;
-    margin: 0 auto;
-    margin-left: -210px;
-    width: 200%;
+    margin-top: -50px;
+    height: 350px;
+    margin-left: -110px;
+}
+
+.carousel-control-next-icon:after
+{
+  content: '>';
+  font-size: 45px;
+  font-weight: 600;
+  color: black;
+  margin-left: 90px;
+}
+
+.carousel-control-prev-icon:after {
+  content: '<';
+  font-size: 45px;
+  font-weight: 600;
+  color: black;
+  margin-left: -180px;
+}
+
+.container .carousel-inner .carousel-item .carousel-caption  p{
+    background-color:#fff;
+         opacity: 0.7;
+         color: black;
+         font-weight:bolder;
+         border: 2px solid;
+            border-radius: 5px;
+        }
+
+.icon-box:hover{
+    background-color: rgb(250, 250, 250);
+    transition: ease-in-out 0.3s;
 }
 
 .nav-item {
     padding: 10px 25px;
-    font-size: large;
+    font-size: medium;
 }
 
 .resume {
-    background-color: white; 
-  color: black; 
-  border: 2px solid #D4A59A;
+  background-color:#fff;
+  color: rgb(195, 112, 85);
+  border: 2px solid rgb(195, 112, 85);
   margin-left: 10px;
   padding: 10px 25px;
-  font-size: large;
+  font-size: medium;
 }
 
 .resume:hover {
-    background-color: #fa8231;
-  color: white;
+    background-color: rgb(195, 112, 85);
+    color: #fff;
 }
 
-.nav {
-    margin-right: 40px;
-    margin-top: 40px;
-}
+
 
 #myBtn {
-    background-color: #D4a59a;
+    background-color: #9B9B7A;
+    color: #fff;
 }
 
 #myBtn:hover{
     background-color: white;
+    color: #000;
 }
 
 .social-icons {
@@ -50,6 +84,147 @@ video {
     position: relative;
     padding-top: 100px;
     font-size: 20px;
-    color: #fff;
+    color: #9b9b7a;
     margin: 20px;
+}
+
+#About {
+    position: static;
+    display: grid;
+    height: auto;
+    width: 100%;
+    min-height: auto;
+    grid-template-columns: 100%;
+    grid-template-rows: min-content 1fr;
+}
+
+/**
+* CARD
+**/
+#Portfolio {
+      display: flex;
+      align-items: center;
+      margin-bottom: 100px;
+      flex-direction:row;
+      justify-content:space-evenly;
+  }
+.card {
+    width: 370px;
+    background-color: #fff;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    -webkit-transition: box-shadow 0.5s;
+    transition: box-shadow 0.5s;
+}
+
+.card a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.card:hover {
+    box-shadow: 0 0 50px rgba(0, 0, 0, 0.3);
+}
+
+/**
+* THUMB
+**/
+
+.card__thumb {
+    height: 245px;
+    overflow: hidden;
+    background-color: #fff;
+    -webkit-transition: height 0.5s;
+    transition: height 0.5s;
+}
+
+.card__thumb img {
+    width: 100%;
+    display: block;
+    opacity: 1;
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    -webkit-transition: opacity 0.5s, -webkit-transform 0.5s;
+    transition: opacity 0.5s, -webkit-transform 0.5s;
+    transition: opacity 0.5s, transform 0.5s;
+    transition: opacity 0.5s, transform 0.5s, -webkit-transform 0.5s;
+}
+
+.card:hover .card__thumb {
+    height: 130px;
+}
+
+.card:hover .card__thumb img {
+    opacity: 0.6;
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+}
+
+
+/**
+* card_BODY
+**/
+
+.card__body {
+    position: relative;
+    height: 185px;
+    padding: 20px;
+    -webkit-transition: height 0.5s;
+    transition: height 0.5s;
+}
+
+.card:hover .card__body {
+    height: 300px;
+}
+
+.card__category {
+    position: absolute;
+    top: -25px;
+    left: 0;
+    height: 25px;
+    padding: 0 15px;
+    background-color: coral;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 11px;
+    line-height: 25px;
+}
+
+.card__title {
+    margin: 0;
+    padding: 0 0 10px 0;
+    color: #546156;
+    font-size: 22px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.card__subtitle {
+    font-size: 19px;
+    color: rgb(195, 112, 85);
+}
+
+.card__description {
+    position: absolute;
+    bottom: 26px;
+    color: #666C74;
+    line-height: 27px;
+    opacity: 0;
+    -webkit-transform: translateY(45px);
+    transform: translateY(45px);
+    -webkit-transition: opacity 0.3s, -webkit-transform 0.3s;
+    transition: opacity 0.3s, -webkit-transform 0.3s;
+    transition: opacity 0.3s, transform 0.3s;
+    transition: opacity 0.3s, transform 0.3s, -webkit-transform 0.3s;
+    -webkit-transition-delay: 0s;
+    transition-delay: 0s;
+}
+
+.card:hover .card__description {
+    height: 100px;
+    opacity: 1;
+    -webkit-transform: translateY(0px);
+    transform: translateY(0px);
+    -webkit-transition-delay: 0.2s;
+    transition-delay: 0.2s;
 }
