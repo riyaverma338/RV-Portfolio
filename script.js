@@ -54,3 +54,5 @@ function deletingEffect(){
     
     typingEffect();
 
+
+
