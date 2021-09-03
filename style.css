@@ -314,7 +314,7 @@ body {
     }
 
     .container-bg {
-        width: 220px;
+        width: 350px;
         height: 400px;
     }
      #head{
@@ -335,17 +335,30 @@ body {
         .para>p{
             font-size: 20px;
         }
-        #tech{
-            margin-top: 50px;
-            font-size: 25px;    
-        }
-        #tech .container{
-          margin-right: 10px;
-          margin-left: 20px;
-        }
+       .box{
+           margin-left: 5px;
+           margin-right: 5px;
+
+       }
         .mlsa >img{
             height: 100px;
             width: 100px;
+        }
+        .gcr >img{
+            height: 100px;
+            width: 100px;
+        }
+        .dsc >img{
+            height: 100px;
+            width: 100px;
+        }
+        #Portfolio{
+            margin-right: 5px;
+            margin-left: 5px;
+            display: flex;
+    align-items: center;
+    margin-bottom: 200px;
+    flex-direction: column;
         }
   }
   
