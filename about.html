@@ -38,6 +38,44 @@
     color: #f0ded8;
     margin: 20px;
 }
+@media screen and (max-width: 600px) {
+    #upper{
+        display: flex !important;
+        flex-direction: column !important;
+    }
+    #upper >img{
+        height: 400px !important;
+        width: 300px !important;
+        margin-left: 10px !important;
+    }
+    #upper >h2{
+        margin-top: 50px !important;
+    }
+    .content{
+       padding-left: 15px !important;
+       padding-right: 15px !important;
+       margin-bottom: 150px !important;
+    }
+    .waves >p{
+            font-size: 23px !important;
+            top: 160px !important; 
+        }
+        .waves{
+            height: 420px !important;
+        }
+        #myBtn{
+            padding: 5px !important;
+            top: 340px !important;
+        }
+        .waves >h3{
+            font-size: 15px !important;
+            top: 70px !important;
+        }
+        .social-icons a {
+            padding-top: 150px !important;
+            font-size: 22px !important;
+        }
+}
     </style>
 </head>
 <body>
@@ -58,7 +96,7 @@
 </div>
 
     <div class="About">
-        <div class="upper" style="display: grid; grid-template-columns:45% 55%;">
+        <div id="upper" style="display: grid; grid-template-columns:45% 55%;">
             <img src="./AboutPic.jpg" height="600px" width="480px" style="margin-top: 100px; margin-left: 90px; ">
             <h2 style=" line-height: 1em; margin-top: 150px;text-align: center; color: #4f4f4f;">
                <span style="font-family:serif; font-size: 40px;font-weight: bold;">Hi, I'm Riya!</span>
@@ -99,7 +137,7 @@
               <a href="https://github.com/riyaverma338"><i class="bi bi-github "></i></a>
               <a href="https://twitter.com/vermariya12" class="twitter"><i class="bi bi-twitter"></i></a>
                     </div>
-                    <p style="text-align: center;font-weight: 600;font-size:larger; position: relative; top: 215px;color: #f0ded8;">Crafted with much delight!</p>     
+                    <h3 style="text-align: center;font-weight: 600;font-size:larger; position: relative; top: 215px;color: #f0ded8;">Crafted with much delight!</h3>     
                 </div>
     </div>
     </div>

@@ -178,19 +178,6 @@ body {
     height: 300px;
 }
 
-/* .card__category {
-    position: absolute;
-    top: -25px;
-    left: 0;
-    height: 25px;
-    padding: 0 15px;
-    background-color: coral;
-    color: #fff;
-    text-transform: uppercase;
-    font-size: 11px;
-    line-height: 25px;
-} */
-
 .card__title {
     margin: 0;
     padding: 0 0 10px 0;
@@ -314,51 +301,140 @@ body {
     }
 
     .container-bg {
-        width: 350px;
-        height: 400px;
+        width: 300px !important; 
+        height: 500px !important;
     }
      #head{
-         font-size: 10px;
-         margin-top: 20px;
+         font-size: 30px !important;
+         margin-top: 50px !important;
      }
      .bgpic>img{
-         height: 200px;
-         width: 200px;
+         height: 250px !important;
+         width: 280px !important;
      }
      .para{
-         margin-left: 5px;
-         margin-right: 5px;
+         margin-left: 5px !important;
+         margin-right: 5px !important;
         }
         .para>h2{
-            font-size: 35px;
+            font-size: 35px !important;
         }
         .para>p{
             font-size: 20px;
         }
        .box{
-           margin-left: 5px;
-           margin-right: 5px;
+           margin-left: 15px !important;
+           margin-right: 15px !important;
 
        }
         .mlsa >img{
-            height: 100px;
-            width: 100px;
+            height: 180px;
+            width: 250px;
         }
         .gcr >img{
-            height: 100px;
-            width: 100px;
+            height: 180px;
+            width: 250px;
         }
         .dsc >img{
-            height: 100px;
-            width: 100px;
+            height: 180px;
+            width: 250px;
         }
         #Portfolio{
-            margin-right: 5px;
-            margin-left: 5px;
-            display: flex;
-    align-items: center;
-    margin-bottom: 200px;
     flex-direction: column;
+    margin-left: 15px !important;
+            margin-right: 15px !important;
+            height: 1000px !important;
+            margin-bottom: 100px !important;
         }
-  }
+        #wave >p{
+            font-size: 22px !important;
+            top: 140px !important; 
+        }
+        #wave{
+            height: 420px !important;
+        }
+        #myBtn{
+            padding: 5px !important;
+            top: 340px !important;
+        }
+        #wave >h3{
+            font-size: 15px !important;
+            top: 85px !important;
+        }
+        .social-icons a {
+            padding-top: 120px !important;
+            font-size: 22px !important;
+        }
+        #card1{
+            margin-bottom: 10px !important;
+        }
+        .card{
+            width: 270px !important;
+        }
+        .gcr >h4{
+            font-size: 20px !important;
+        }
+        .gcr >p{
+            margin-top: 0px !important;
+        }
+        .dsc >h4{
+            font-size: 20px !important;
+        }
+        .dsc >p{
+            margin-top: 0px !important;
+        }
+        .card__body >h2{
+            font-size: 15px;
+        }
+        .mlsa >h4{
+            font-size: 20px !important;
+        }
+        .mlsa >p{
+            margin-top: 0px !important;
+        }
+        .mlsa{
+            display: flex !important;
+            flex-direction: column !important;
+            margin: 20px !important;
+        }
+        br{
+            display: none;
+        }
+        .gcr{
+            display: flex !important;
+            flex-direction: column !important;
+            margin: 20px !important;
+        }
+        .dsc{
+            display: flex !important;
+            flex-direction: column !important;
+            margin: 20px !important;
+        }
+        #projects{
+            margin-top: 100px !important;
+        }
+        #projects >p{
+            margin-bottom: 30px !important;
+            font-size: 15px !important;
+            margin-top: 0px !important;
+        }
+        #tech >h1{
+            font-size: 25px !important;
+        }
+        #achievements >h1{
+            font-size: 25px !important;
+            margin-top: 100px !important;
+            margin-bottom: 0px !important;
+        }
+        #projects >h1{
+            font-size: 25px !important;
+        }
+        .mt-4{
+            margin-top: 0rem !important;
+        }
+        #tech{
+            margin-top: 100px !important;
+        }
+    
+      }
   
