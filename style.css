@@ -310,7 +310,7 @@ body {
      }
      .bgpic>img{
          height: 250px !important;
-         width: 280px !important;
+         width: 295px !important;
      }
      .para{
          margin-left: 5px !important;
@@ -348,21 +348,22 @@ body {
         }
         #wave >p{
             font-size: 22px !important;
-            top: 140px !important; 
+            top: 10px !important; 
         }
         #wave{
-            height: 420px !important;
+            height: 300px !important;
+            border-radius: 0% !important;
         }
         #myBtn{
             padding: 5px !important;
-            top: 340px !important;
+            top: 200px !important;
         }
         #wave >h3{
             font-size: 15px !important;
-            top: 85px !important;
+            top: 90px !important;
         }
         .social-icons a {
-            padding-top: 120px !important;
+            padding-top: 0px !important;
             font-size: 22px !important;
         }
         #card1{
