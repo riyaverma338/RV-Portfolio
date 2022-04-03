@@ -1,7 +1,57 @@
 body {
   background-image: linear-gradient(45deg, #f1effd, #ffeaef);
 }
-.carousel-control-next-icon:after {
+
+.carousel {
+  justify-content: center;
+  display: flex;
+  border-radius: 0 30px 0 30px;
+  background-color: #c9d1b2;
+  margin-left: 100px;
+  margin-right: 100px;
+  /* min-height: 41rem; */
+ padding: 60px 50px;
+}
+.carousel-inner {
+  width: 50rem;
+  height: 100%;
+}
+
+.carousel-caption{
+  position: initial;
+  color: #fff  !important ;
+  padding: 1.2rem;
+}
+
+.carousel-caption h5{
+  text-decoration-style: wavy;
+  text-decoration-line: underline;
+  text-decoration-color: yellow;
+  text-underline-offset: 6px;
+}
+
+.carousel-caption h5:hover {
+  animation: slideleft 900s infinite linear;
+}
+
+.carousel-item img{
+  height: 22rem;
+}
+.cap-1, .cap-2, .cap-3{
+  background-color: #d08c60;
+  border: 1px solid #fff;
+}
+
+/* .cap-2{
+  background-color: #a29bfe;
+  border: 1px solid #fff;
+}
+
+.cap-3{
+  background-color: #74b9ff;
+  border: 1px solid #fff;
+} */
+/* .carousel-control-next-icon:after {
   content: ">";
   font-size: 45px;
   font-weight: 600;
@@ -25,7 +75,7 @@ body {
   border: 2px solid;
   border-radius: 5px;
   padding: 10px;
-}
+} */
 
 .icon-box:hover {
   background-color: rgb(0, 0, 0, 0.08);
@@ -98,7 +148,7 @@ body {
   margin-left: 100px;
   margin-right: 100px;
 }
-.card {
+/* .card {
   width: 370px;
   background-color: #fff;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
@@ -114,13 +164,13 @@ body {
 
 .card:hover {
   box-shadow: 0 0 50px rgba(0, 0, 0, 0.3);
-}
+} */
 
 /**
 * THUMB
 **/
 
-.card__thumb {
+/* .card__thumb {
   height: 245px;
   overflow: hidden;
   background-color: #fff;
@@ -148,13 +198,13 @@ body {
   opacity: 0.6;
   -webkit-transform: scale(1.2);
   transform: scale(1.2);
-}
+} */
 
 /**
 * card_BODY
 **/
 
-.card__body {
+/* .card__body {
   position: relative;
   height: 185px;
   padding: 20px;
@@ -173,9 +223,9 @@ body {
   font-size: 22px;
   font-weight: bold;
   text-transform: uppercase;
-}
+} */
 
-.card__subtitle {
+/* .card__subtitle {
   font-size: 19px;
   color: rgb(195, 112, 85);
 }
@@ -280,7 +330,7 @@ body {
   filter: alpha(opacity=60);
   -webkit-transform: translate3d(0, 0, 0);
   transform: translate3d(0, 0, 0);
-}
+} */
 
 @media screen and (max-width: 600px) {
   .nav-item {
@@ -424,3 +474,6 @@ body {
     margin-top: 100px !important;
   }
 }
+
+/* carousel */
+
